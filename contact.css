@@ -1,0 +1,299 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#0b0b0b;
+    color:#fff;
+}
+
+/*================ NAVBAR ================*/
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#050505;
+    color:#fff;
+}
+
+.container{
+    width:90%;
+    margin:auto;
+    padding:30px 0;
+}
+
+
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#111;
+    padding:18px 40px;
+    border-radius:8px;
+}
+
+.logo{
+    font-size:30px;
+    font-weight:700;
+}
+
+.logo span{
+    color:#ff7a00;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:45px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    font-size:18px;
+    transition:.3s;
+}
+
+nav ul li a:hover{
+    color:#ff7a00;
+}
+
+.active{
+    color:#ff7a00;
+    border-bottom:2px solid #ff7a00;
+    padding-bottom:6px;
+}
+
+.contact-btn{
+    text-decoration:none;
+    color:#fff;
+    border:2px solid #ff7a00;
+    padding:12px 25px;
+    border-radius:12px;
+    transition:.3s;
+}
+
+.contact-btn:hover{
+    background:#ff7a00;
+}
+
+.contact-btn i{
+    margin-left:10px;
+}
+
+  
+/*================ CONTACT ================*/
+
+.contact{
+    width:90%;
+    max-width:1200px;
+    margin:60px auto;
+    display:flex;
+    justify-content:space-between;
+    gap:70px;
+}
+
+.left{
+    width:42%;
+}
+
+.right{
+    width:58%;
+}
+
+.small-btn{
+    background:#141414;
+    color:#fff;
+    border:1px solid #333;
+    padding:10px 22px;
+    border-radius:30px;
+    margin-bottom:25px;
+}
+
+.left h1{
+    font-size:50px;
+    font-weight:700;
+}
+
+.left h1{
+    color:#ff7a00;
+}
+
+.left h1 span{
+    color:#fff;
+}
+
+/* underline */
+
+.underline{
+    width:110px;
+    height:4px;
+    background:#ff7a00;
+    margin:15px 0 25px;
+    border-radius:20px;
+}
+
+.left p{
+    color:#bdbdbd;
+    line-height:28px;
+    margin-bottom:30px;
+}
+
+/*================ INFO BOX ================*/
+
+.box{
+    display:flex;
+    align-items:center;
+    gap:18px;
+    margin-bottom:28px;
+    padding-bottom:18px;
+    border-bottom:1px solid #242424;
+}
+
+.icon{
+    width:55px;
+    height:55px;
+    border:1px solid #ff7a00;
+    border-radius:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#ff7a00;
+    font-size:20px;
+}
+
+.box h3{
+    margin-bottom:4px;
+}
+
+.box span{
+    color:#a0a0a0;
+}
+
+/*================ SOCIAL ================*/
+
+.social p{
+    margin-bottom:15px;
+}
+
+.icons{
+    display:flex;
+    gap:15px;
+}
+
+.icons a{
+    width:45px;
+    height:45px;
+    background:#151515;
+    border:1px solid #2d2d2d;
+    color:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration:none;
+    border-radius:8px;
+    transition:.3s;
+}
+
+.icons a:hover{
+    background:#ff7a00;
+    border-color:#ff7a00;
+}
+
+/*================ FORM ================*/
+
+.row{
+    display:flex;
+    gap:20px;
+    margin-bottom:20px;
+}
+
+.row input{
+    width:50%;
+}
+
+input,
+textarea{
+    width:100%;
+    background:#111;
+    border:1px solid #ff7a00;
+    outline:none;
+    color:#fff;
+    padding:18px;
+    border-radius:8px;
+    font-size:15px;
+    margin-bottom:20px;
+}
+
+textarea{
+    height:180px;
+    resize:none;
+}
+
+/*================ SEND BUTTON ================*/
+
+.send{
+    border:none;
+    background:#ff7a00;
+    color:#fff;
+    padding:16px 35px;
+    border-radius:8px;
+    font-size:16px;
+    cursor:pointer;
+    transition:.35s;
+}
+
+.send:hover{
+    background:#ff9500;
+    transform:translateY(-3px);
+    box-shadow:0 0 20px rgba(255,122,0,.5);
+}
+
+
+
+/*================ RESPONSIVE ================*/
+
+@media(max-width:900px){
+
+header{
+    flex-direction:column;
+    gap:20px;
+}
+
+nav ul{
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.contact{
+    flex-direction:column;
+}
+
+.left,
+.right{
+    width:100%;
+}
+
+.row{
+    flex-direction:column;
+}
+
+.row input{
+    width:100%;
+}
+
+.left h1{
+    font-size:38px;
+}
+
+}
