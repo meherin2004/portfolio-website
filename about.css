@@ -377,3 +377,38 @@ hr{
     transform:translateY(-5px);
     box-shadow:0 0 15px rgba(255,140,0,.25);
 }
+@media(max-width:768px){
+
+.about-section{
+    flex-direction:column;
+}
+
+.left,
+.right{
+    width:100%;
+}
+
+.profile-card,
+.cv-btn{
+    width:100%;
+    max-width:300px;
+    margin:auto;
+}
+
+.cards{
+    grid-template-columns:1fr;
+}
+
+.skill-grid{
+    grid-template-columns:1fr;
+}
+
+.soft ul{
+    grid-template-columns:1fr;
+}
+
+.hobby-grid{
+    grid-template-columns:1fr;
+}
+
+}

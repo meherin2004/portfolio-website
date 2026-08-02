@@ -79,7 +79,7 @@ nav ul li a:hover{
 }
 
 
-/*========== ACHIEVEMENTS ==========*/
+
 
 .achievements{
     padding:80px 10%;
@@ -114,7 +114,7 @@ nav ul li a:hover{
     font-size:28px;
 }
 
-/*========== TIMELINE ==========*/
+
 
 .timeline{
     position:relative;
@@ -217,7 +217,7 @@ nav ul li a:hover{
     line-height:1.7;
 }
 
-/*========== HOVER ==========*/
+
 
 .timeline-item:hover .content{
     transform:translateY(-5px);
@@ -236,7 +236,7 @@ nav ul li a:hover{
     transform:scale(1.05);
 }
 
-/*========== RESPONSIVE ==========*/
+
 
 @media(max-width:768px){
 

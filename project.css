@@ -119,9 +119,7 @@ nav ul li a:hover{
     gap:30px;
     flex-wrap:wrap;
 }
-/* ==========================
-   Project Card
-========================== */
+
 
 .card{
     width:380px;
@@ -173,9 +171,7 @@ nav ul li a:hover{
     margin-bottom:35px;
 }
 
-/* ==========================
-   Divider
-========================== */
+
 
 .divider{
     display:flex;
@@ -196,9 +192,7 @@ nav ul li a:hover{
     font-size:12px;
 }
 
-/* ==========================
-   Technology
-========================== */
+
 
 .tech{
     display:flex;
@@ -213,9 +207,7 @@ nav ul li a:hover{
     color:#fff;
 }
 
-/* ==========================
-   Button
-========================== */
+
 
 .btn{
     width:100%;
@@ -243,9 +235,7 @@ nav ul li a:hover{
     color:#fff;
 }
 
-/* ==========================
-   Responsive
-========================== */
+
 
 @media(max-width:1200px){
 

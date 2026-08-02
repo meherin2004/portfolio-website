@@ -78,9 +78,7 @@ nav ul li a:hover{
     margin-left:10px;
 }
 
-/*==========================
-      PUBLICATION SECTION
-===========================*/
+
 
 .publication{
 
@@ -109,7 +107,7 @@ nav ul li a:hover{
     color:#ff9800;
 }
 
-/* Heading Line */
+
 
 .line{
 
@@ -136,9 +134,7 @@ nav ul li a:hover{
     font-size:24px;
 }
 
-/*==========================
-          CARDS
-===========================*/
+
 
 .cards{
 
@@ -149,7 +145,7 @@ nav ul li a:hover{
     gap:25px;
 }
 
-/* Card */
+
 
 .card{
 
@@ -175,7 +171,7 @@ nav ul li a:hover{
     box-shadow:0 0 18px rgba(255,152,0,.25);
 }
 
-/* Card Icon */
+
 
 .icon{
 
@@ -200,7 +196,7 @@ nav ul li a:hover{
     font-size:20px;
 }
 
-/* Card Title */
+
 
 .card h3{
 
@@ -213,7 +209,7 @@ nav ul li a:hover{
     margin-bottom:15px;
 }
 
-/* Card Text */
+
 
 .card p{
 
@@ -235,7 +231,6 @@ nav ul li a:hover{
     font-size:14px;
 }
 
-/* Read More */
 
 .card a{
 
@@ -262,9 +257,7 @@ nav ul li a:hover{
     margin-left:6px;
 }
 
-/*==========================
-      RESPONSIVE
-===========================*/
+
 
 @media(max-width:900px){
 
